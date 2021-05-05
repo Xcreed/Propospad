@@ -1,6 +1,6 @@
 # Propospad
 
-**Curso:** Programación Avanzada en Web || **Lenguaje:** C#
+**Curso:** Programación Avanzada en Web || **Lenguaje:** C# - ASP.NET Core
 
 # Descripción
 Este proyecto establece una plataforma mediante la cual los empleados de las empresas (tanto administradores como usuarios regulares) puede proponer ideas de manera transparente y que otros empleados puedan colaborar con críticas o mejoras para implementar la idea.
