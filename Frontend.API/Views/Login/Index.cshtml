@@ -1,0 +1,58 @@
+﻿@model LoginViewModel
+@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio sesi&oacute;n</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="~/css/Login.css">
+</head>
+
+<body>
+    <style>
+    </style>
+
+    <div class="sidenav">
+        <div class="login-main-text">
+            <img src="~/img/propospad-2.png" alt="AdminLTE Logo" style="width:40%;" class="brand-image img-circle elevation-3">
+            <br />
+            <p class="text-side">Propospad</p>
+        </div>
+    </div>
+    <div class="container-index">
+        <img src="~/img/Business.jpg" style="opacity: .8; width:100%">
+        <div class="main">
+            <div class="col-md-6 col-sm-12" style="max-width:100%">
+                <div class="login-form">
+                    <form method="post">
+                        <div class="form-group">
+                            <h2 style="text-align:center">Inicio de sesi&oacute;n</h2>
+                            <p style="text-align:center">Por favor digite sus credenciales</p>
+                        </div>
+                        <div asp-validation-summary="All" class="text-white bg-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" class="form-control" />
+                            <span class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label>Contrase&ntilde;a</label>
+                            <input asp-for="Password" class="form-control" />
+                            <span class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-black">Iniciar Sesi&oacute;n</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</hmtl>
+
+
